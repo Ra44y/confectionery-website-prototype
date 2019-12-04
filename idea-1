@@ -1,0 +1,96 @@
+<main>
+    <nav>
+        <div class="cards">
+          <img src="images/candy-1.jpg" alt="">
+          <h3>Rainbow Chiclets</h3>
+          <p>Handmade chiclets that pack a big enough punch that they can substitute for 3 whole meals!! For the whole family coming in an assortment of colours and flavours; ranging from lemony yellow to blueberry blue!</p>
+          <a href class="btn btn-small">ORDER NOW</a>
+        </div>
+        <div class="cards-2">
+          <img src="images/candy-2.jpg" alt="">
+          <h4>Sweet Tart Gummies</h4>
+          <p>Exxplllooosions! Handmade gummy worms with the perfect mixture of sweet and sour to satisfy any combination palette!</p>
+          <a href class="btn btn-small">ORDER NOW</a>
+        </div>
+        <div class="cards-3">
+          <img src="images/candy-3.jpg" alt="">
+          <h5>Chilly Mints</h5>
+          <p>Refreshing and sweet! Our handmade mints are made as delicious little treats to help freshen your breath while still staying delicious sweet!.</p>
+          <a href class="btn btn-small">ORDER NOW</a>
+        </div>
+      </nav>
+    </main>
+
+    h2,h3, h4, h5, h6 {
+      text-align: center;
+      font-size: 1.5rem;
+      color: #f9e4e4;
+      display: block;
+      font-family: "Amatica SC", sans-serif;
+    }
+
+    .cards div {
+     padding: 1rem 1.5rem;
+     border-left: 1px solid #333;
+     font-size: .9rem;
+     width: 25%;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+     flex-grow: 1;
+   }
+
+   .cards {
+     background-color: black;
+     margin: 0 auto 1.5rem;
+     color: white;
+   }
+
+   .cards-2 {
+     background-color: black;
+     margin: 0 auto 1.5rem;
+     color: white;
+   }
+
+   .cards-3 {
+     background-color: black;
+     margin: 0 auto 1.5rem;
+     color: white;
+   }
+
+   .cards-4 {
+     background-color: black;
+     margin: 0 auto 1.5rem;
+     color: white;
+   }
+
+   .btn {
+     padding: .5rem;
+     margin: 0;
+     background-color: #333;
+     border-radius: 8px;
+   }
+
+   .btn-small {
+     text-decoration: none;
+     color: #fff;
+   }
+
+   .btn-samll:hover {
+     background-color: #000;
+   }
+
+    p {
+     margin: 0 0 1.5rem;
+     font-family: "Playfair Display", serif;
+   }
+
+   .cards div img {
+     width: 100px;
+     margin: 0 auto 1rem;
+   }
+
+   nav {
+     display: flex;
+     margin: auto .875rem;
+   }

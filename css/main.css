@@ -31,7 +31,7 @@ header h1 {
   margin: 0;
   padding: 5px;
   text-align: center;
-  font-family: 'Sonsie One', cursive;
+  font-family: "Sonsie One", cursive;
 }
 
 nav a {
@@ -39,7 +39,7 @@ nav a {
   text-decoration: none;
   white-space: nowrap;
   display: inline-block;
-  padding: 0.5em 0.75em;
+  padding: .5em .75em;
   border-radius: 4px;
 }
 
@@ -58,7 +58,6 @@ nav ul {
 ul li {
   list-style-type: none;
   padding: .5em .75em;
-  /* width: 50%; */
 }
 
 nav a:hover {
@@ -87,7 +86,6 @@ section {
   padding: 1em;
   cursor: pointer;
   margin: 0;
-  width: 95%;
   margin: 0 auto;
   box-shadow: 2px 2px 5px grey;
 }
@@ -109,6 +107,11 @@ section {
   font-size: .9em;
   text-decoration: none;
   position: relative;
+}
+
+.img-flex {
+  display: block;
+  width: 100%;
 }
 
 section.about {
@@ -148,69 +151,69 @@ h3, h4, h5, h6 {
 }
 
 .cards div {
- padding: 1rem 1.5rem;
- border-left: 1px solid #333;
- font-size: .9rem;
- width: 25%;
- display: flex;
- flex-direction: column;
- justify-content: space-between;
- flex-grow: 1;
+  padding: 1rem 1.5rem;
+  border-left: 1px solid #333;
+  font-size: .9rem;
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-grow: 1;
 }
 
 .cards {
- background-color: black;
- margin: 0 auto 1.5rem;
- color: white;
+  background-color: black;
+  margin: 0 auto 1.5rem;
+  color: white;
 }
 
 .cards-2 {
- background-color: black;
- margin: 0 auto 1.5rem;
- color: white;
+  background-color: black;
+  margin: 0 auto 1.5rem;
+  color: white;
 }
 
 .cards-3 {
- background-color: black;
- margin: 0 auto 1.5rem;
- color: white;
+  background-color: black;
+  margin: 0 auto 1.5rem;
+  color: white;
 }
 
 .cards-4 {
- background-color: black;
- margin: 0 auto 1.5rem;
- color: white;
+  background-color: black;
+  margin: 0 auto 1.5rem;
+  color: white;
 }
 
 .btn {
- padding: .5rem;
- margin: 0;
- background-color: #333;
- border-radius: 8px;
+  padding: .5rem;
+  margin: 0;
+  background-color: #333;
+  border-radius: 8px;
 }
 
 .btn-small {
- text-decoration: none;
- color: #fff;
+  text-decoration: none;
+  color: #fff;
 }
 
 .btn-samll:hover {
- background-color: #000;
+  background-color: #000;
 }
 
 p {
- margin: 0 0 1.5rem;
- font-family: "Playfair Display", serif;
+  margin: 0 0 1.5rem;
+  font-family: "Playfair Display", serif;
 }
 
 .cards div img {
- width: 100px;
- margin: 0 auto 1rem;
+  width: 100px;
+  margin: 0 auto 1rem;
 }
 
 nav {
- display: flex;
- margin: auto .875rem;
+  display: flex;
+  margin: auto .875rem;
 }
 
 .social {

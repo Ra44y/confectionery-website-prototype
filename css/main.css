@@ -80,13 +80,12 @@ section {
 
 .banner-content {
   position: absolute;
-  bottom: 23%;
-  text-align: left;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 60%;
   width: 100%;
   padding: 1em;
   cursor: pointer;
-  margin: 0;
-  margin: 0 auto;
   box-shadow: 2px 2px 5px grey;
 }
 

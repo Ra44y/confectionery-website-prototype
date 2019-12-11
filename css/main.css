@@ -45,6 +45,7 @@ nav a {
 
 nav ul {
   padding: 0;
+  margin: 0;
   font-size: 1.125rem;
   display: inline-block;
 }
@@ -78,11 +79,15 @@ section {
   margin: 0;
 }
 
+.banner-body {
+  position: relative;
+}
+
 .banner-content {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  top: 60%;
+  bottom: 2em;
   width: 100%;
   padding: 1em;
   cursor: pointer;
@@ -114,7 +119,7 @@ section {
 }
 
 section.about {
-  width: 95%;
+  width: 100%;
   margin: 0 auto;
   box-shadow: 2px 2px 5px grey;
 }
@@ -211,19 +216,20 @@ p {
 }
 
 nav {
-  display: flex;
-  margin: auto .875rem;
+  margin: 0;
 }
 
 .social {
-  margin-left: auto;
-  padding: 0 1rem;
   display: flex;
 }
 
 .social > li {
   margin: 0 .5em;
   width: 3em;
+}
+
+footer {
+  background-color: black;
 }
 
 @media only screen and (min-width: 25em) {
@@ -255,6 +261,14 @@ nav {
   ul li {
     width: 25%;
     text-align: center;
+  }
+
+}
+
+@media only screen and (min-width: 50em) {
+
+  nav {
+    display: flex;
   }
 
 }
